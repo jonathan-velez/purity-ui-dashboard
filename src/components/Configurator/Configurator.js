@@ -75,7 +75,7 @@ export default function Configurator(props) {
                     w="50%"
                     p="8px 32px"
                     me="8px"
-                    colorScheme="teal"
+                    colorScheme='red'
                     borderColor="teal.300"
                     color="teal.300"
                     variant="outline"
@@ -108,7 +108,7 @@ export default function Configurator(props) {
                   Navbar Fixed
                 </Text>
                 <Switch
-                  colorScheme="teal"
+                  colorScheme='red'
                   isChecked={switched}
                   onChange={(event) => {
                     if (switched === true) {

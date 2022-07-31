@@ -22,18 +22,18 @@ class BarChart extends Component {
   render() {
     return (
       <Card
-        py="1rem"
-        height={{ sm: "200px" }}
-        width="100%"
-        bg="linear-gradient(81.62deg, #313860 2.25%, #151928 79.87%)"
-        position="relative"
+        py='1rem'
+        height={{ sm: '200px' }}
+        width='100%'
+        bg='linear-gradient(81.62deg, #4d5d9c 2.25%, #001871 79.87%)'
+        position='relative'
       >
         <Chart
           options={this.state.chartOptions}
           series={this.state.chartData}
-          type="bar"
-          width="100%"
-          height="100%"
+          type='bar'
+          width='100%'
+          height='100%'
         />
       </Card>
     );

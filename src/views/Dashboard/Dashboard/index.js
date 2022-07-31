@@ -26,7 +26,6 @@ import MiniStatistics from "./components/MiniStatistics";
 import OrdersOverview from "./components/OrdersOverview";
 import Projects from "./components/Projects";
 import SalesOverview from "./components/SalesOverview";
-import WorkWithTheRockets from "./components/WorkWithTheRockets";
 
 export default function Dashboard() {
   const iconBoxInside = useColorModeValue("white", "white");
@@ -64,7 +63,7 @@ export default function Dashboard() {
         templateRows={{ md: "1fr auto", lg: "1fr" }}
         my='26px'
         gap='24px'>
-        <BuiltByDevelopers
+        {/* <BuiltByDevelopers
           title={"Built by Developers"}
           name={"Purity UI Dashboard"}
           description={
@@ -77,14 +76,7 @@ export default function Dashboard() {
               minWidth={{ md: "300px", lg: "auto" }}
             />
           }
-        />
-        <WorkWithTheRockets
-          backgroundImage={peopleImage}
-          title={"Work with the rockets"}
-          description={
-            "Wealth creation is a revolutionary recent positive-sum game. It is all about who takes the opportunity first."
-          }
-        />
+        /> */}
       </Grid>
       <Grid
         templateColumns={{ sm: "1fr", lg: "1.3fr 1.7fr" }}

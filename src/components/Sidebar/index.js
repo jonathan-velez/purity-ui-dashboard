@@ -29,29 +29,30 @@ function Sidebar(props) {
   // SIDEBAR
   return (
     <Box ref={mainPanel}>
-      <Box display={{ sm: "none", xl: "block" }} position="fixed">
+      <Box display={{ sm: 'none', xl: 'block' }} position='fixed'>
         <Box
           bg={sidebarBg}
           transition={variantChange}
-          w="260px"
-          maxW="260px"
+          w='260px'
+          maxW='260px'
           ms={{
-            sm: "16px",
+            sm: '16px',
           }}
           my={{
-            sm: "16px",
+            sm: '16px',
           }}
-          h="calc(100vh - 32px)"
-          ps="20px"
-          pe="20px"
+          h='calc(100vh - 32px)'
+          ps='20px'
+          pe='20px'
           m={sidebarMargins}
           borderRadius={sidebarRadius}
         >
-          <SidebarContent routes={routes}
-        logoText={"PURITY UI DASHBOARD"}
-        display="none"
-        sidebarVariant={sidebarVariant}
-        />
+          <SidebarContent
+            routes={routes}
+            logoText={'VANGUARD LOGISTICS'}
+            display='none'
+            sidebarVariant={sidebarVariant}
+          />
         </Box>
       </Box>
     </Box>
